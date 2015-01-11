@@ -1,1 +1,158 @@
-{"name":"Helsinki","layouts":[{"component":false,"title":"Front page","layout_name":"page_front","content_type":"page","file":"layouts/front_page.tpl"},{"component":false,"title":"Common page","layout_name":"page_default","content_type":"page","file":"layouts/common_page.tpl"},{"component":false,"title":"Blog & News","layout_name":"blog_front","content_type":"blog","file":"layouts/blog___news.tpl"},{"component":false,"title":"Blog Article","layout_name":"blog_article","content_type":"blog_article","file":"layouts/blog_article.tpl"},{"component":true,"title":"Langmenu","layout_name":"","content_type":"component","file":"components/langmenu.tpl"},{"component":true,"title":"Mainmenu","layout_name":"","content_type":"component","file":"components/mainmenu.tpl"},{"component":true,"title":"SiteHeader","layout_name":"","content_type":"component","file":"components/siteheader.tpl"},{"component":true,"title":"Submenu","layout_name":"","content_type":"component","file":"components/submenu.tpl"},{"component":true,"title":"JS","layout_name":"","content_type":"component","file":"components/js.tpl"}],"author":"Martin Tajur","assets":[{"kind":"stylesheets","content_type":"text/css","filename":"style.css","file":"stylesheets/style.css"},{"kind":"images","content_type":"image/gif","filename":"tape_2.gif","file":"images/tape_2.gif"},{"kind":"images","content_type":"image/gif","filename":"tape_2_medium.gif","file":"images/tape_2_medium.gif"},{"kind":"images","content_type":"image/png","filename":"background.png","file":"images/background.png"},{"kind":"images","content_type":"image/gif","filename":"tape_1.gif","file":"images/tape_1.gif"},{"kind":"images","content_type":"image/gif","filename":"tape_1_medium.gif","file":"images/tape_1_medium.gif"},{"kind":"images","content_type":"image/png","filename":"background_medium.png","file":"images/background_medium.png"},{"kind":"images","content_type":"image/gif","filename":"news.gif","file":"images/news.gif"},{"kind":"images","content_type":"image/gif","filename":"logo.gif","file":"images/logo.gif"},{"kind":"images","content_type":"image/gif","filename":"logo_medium.gif","file":"images/logo_medium.gif"},{"kind":"images","content_type":"image/gif","filename":"news_medium.gif","file":"images/news_medium.gif"},{"kind":"images","content_type":"image/gif","filename":"brown.gif","file":"images/brown.gif"},{"kind":"images","content_type":"image/gif","filename":"brown_medium.gif","file":"images/brown_medium.gif"},{"kind":"stylesheets","content_type":"text/css","filename":"ie.css","file":"stylesheets/ie.css"}],"preview_medium":"http://static.edicy.com/designs/previews/helsinki_medium.png","preview_small":"http://static.edicy.com/designs/previews/helsinki_small.jpg","description":"Helsinki South"}
+{
+  "description": "Helsinki South",
+  "name": "Helsinki",
+  "preview_medium": "http://static.edicy.com/designs/previews/helsinki_medium.png",
+  "preview_small": "http://static.edicy.com/designs/previews/helsinki_small.jpg",
+  "author": "Martin Tajur",
+  "layouts": [
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "title": "Front page"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "title": "Common page"
+    },
+    {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog_front",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "blog_article",
+      "component": false,
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "title": "Blog Article"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/js.tpl",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/langmenu.tpl",
+      "layout_name": "langmenu",
+      "title": "langmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/mainmenu.tpl",
+      "layout_name": "mainmenu",
+      "title": "mainmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/siteheader.tpl",
+      "layout_name": "siteheader",
+      "title": "siteheader"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/submenu.tpl",
+      "layout_name": "submenu",
+      "title": "submenu"
+    }
+  ],
+  "assets": [
+    {
+      "content_type": "image/png",
+      "file": "images/background.png",
+      "kind": "images",
+      "filename": "background.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/background_medium.png",
+      "kind": "images",
+      "filename": "background_medium.png"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/brown.gif",
+      "kind": "images",
+      "filename": "brown.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/brown_medium.gif",
+      "kind": "images",
+      "filename": "brown_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/logo.gif",
+      "kind": "images",
+      "filename": "logo.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/logo_medium.gif",
+      "kind": "images",
+      "filename": "logo_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/news.gif",
+      "kind": "images",
+      "filename": "news.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/news_medium.gif",
+      "kind": "images",
+      "filename": "news_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/tape_1.gif",
+      "kind": "images",
+      "filename": "tape_1.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/tape_1_medium.gif",
+      "kind": "images",
+      "filename": "tape_1_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/tape_2.gif",
+      "kind": "images",
+      "filename": "tape_2.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/tape_2_medium.gif",
+      "kind": "images",
+      "filename": "tape_2_medium.gif"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/ie.css",
+      "kind": "stylesheets",
+      "filename": "ie.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css"
+    }
+  ]
+}
