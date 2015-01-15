@@ -312,9 +312,6 @@ a img { border:none;}
   font-weight:bold;
   height:30px;
 }
-#search {
-  padding-left: 20px;
-}
 #search, #search div {
   display: inline;
   clear: both;
@@ -382,6 +379,12 @@ body .add-article {
   display: inline-block !important;
   text-decoration: none;
 }
+
+/* Voog cms style overrides */
+.edy-menu-langadd {
+  padding-right: 20px;
+}
+
 @media screen and (max-width: 480px) {
   body {padding-top: 0;}
   .left, .right {
@@ -396,3 +399,4 @@ body .add-article {
   #footer {margin: 0 10px !important;}
   #wrap_1 {padding: 10px !important;}
 }
+
