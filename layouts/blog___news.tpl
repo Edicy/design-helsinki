@@ -9,13 +9,13 @@
 <div id="wrap"><div class="tape_1 left"></div><div class="tape_2 right"></div>
 	<div id="wrap_1"><div id="container">
   {% include "Langmenu" %}
-  <div id="logo">
+  <div id="logo" class="clearfix">
    <h1 class="clearfix">{% if editmode %}{% editable site.header %}{%else%}<a href="{{ site.root_item.url }}">{% editable site.header %}</a>{% endif %}</h1>
     <div class="clearer"></div>
   </div>
   {% include "Mainmenu" %}
 {% include "Submenu" %}
-  <div id="content">
+  <div id="content" class="clearfix">
    <h1>{{ page.title }}</h1>
     {% addbutton class="add-article" %}
    <table id="newstable">{% for article in articles %}

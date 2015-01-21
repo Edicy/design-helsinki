@@ -1,5 +1,7 @@
 .clearfix:after {
-  content: "."; display: block;height: 0;clear: both;font-size: 1px;line-height: 1px;visibility: hidden;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 body {
@@ -86,7 +88,6 @@ a img { border:none;}
   text-align: center;
   margin: 0 40px 0 40px;
   max-width: 720px;
-  overflow: hidden;
 }
 #logo h1 {
   margin: 0;
@@ -181,7 +182,6 @@ a img { border:none;}
   margin: 0 40px;
   padding-top: 30px;
   padding-bottom: 40px;
-  overflow: hidden;
   max-width: 720px;
 }
 #content-inner {
