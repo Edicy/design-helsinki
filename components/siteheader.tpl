@@ -1,5 +1,5 @@
 {% stylesheet_link "style.css?helsinki" %}
-{% if editmode %}{% stylesheet_link "assets/admin/editmode.css" static_host="true" %}{% endif %}
+{% if editmode %}<style>.untranslated{opacity:.5;filter:alpha(Opacity=50);zoom:1}</style>{% endif %}
 
 <meta name="keywords" content="{{ page.keywords }}" />
 <meta name="description" content="{{ page.description }}" />
@@ -12,7 +12,7 @@
 {% if site.search.enabled %}
 	{% stylesheet_link "assets/site_search/2.0/site_search.css" static_host="true" %}
         {% endif %}
-<!--[if IE]><link rel="stylesheet" href="http://static.edicy.com/assets/ie.css" type="text/css" /><![endif]-->
+<!--[if IE]><style>.clearfix { zoom:1; }</style><![endif]-->
 
 <!--[if lt IE 7]>{% stylesheet_link "ie.css?helsinki" %}<![endif]-->
 <meta name="viewport" content="initial-scale=1" />    
