@@ -41,6 +41,14 @@ a img { border:none;}
   hyphens: auto;
 }
 
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 #wrap {
   margin: 0 auto;
   max-width: 870px;

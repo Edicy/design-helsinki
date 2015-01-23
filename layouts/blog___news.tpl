@@ -6,7 +6,7 @@
   <title>{{site.name}} &raquo; {{page.title}}</title>
 </head>
 <body id="news">
-<div id="wrap"><div class="tape_1 left"></div><div class="tape_2 right"></div>
+<div id="wrap" class="content-hyphenate"><div class="tape_1 left"></div><div class="tape_2 right"></div>
 	<div id="wrap_1"><div id="container">
   {% include "Langmenu" %}
   <div id="logo" class="clearfix">

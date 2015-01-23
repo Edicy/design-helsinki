@@ -5,7 +5,7 @@
 {{ blog.rss_link }}
   <title>{{article.title}} &laquo; {{page.title}} | {{site.name}}</title>
 </head>
-<body id="news">
+<body id="news" class="content-hyphenate">
 <div id="wrap"><div class="tape_1 left"></div><div class="tape_2 right"></div>
 	<div id="wrap_1"><div id="container">
   {% include "Langmenu" %}
