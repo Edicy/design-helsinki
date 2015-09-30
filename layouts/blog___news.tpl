@@ -3,7 +3,7 @@
 <head>
 {% include "SiteHeader" %}
 {{ blog.rss_link }}
-  <title>{{ page.site_title }} &raquo; {{page.title}}</title>
+  <title>{% unless page.site_title == "" %}{{ page.site_title }} &raquo; {% endunless %} {{page.title}}</title>
 </head>
 <body id="news">
 <div id="wrap" class="content-hyphenate"><div class="tape_1 left"></div><div class="tape_2 right"></div>
