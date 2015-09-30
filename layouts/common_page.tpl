@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ page.language_code }}" lang="{{ page.language_code }}">
 <head>
 {% include "Siteheader" %}
-  <title>{{site.name}} &raquo; {{page.title}}</title>
+  <title>{{ page.site_title }} &raquo; {{page.title}}</title>
 </head>
 <body>
 <div id="wrap" class="content-hyphenate"><div class="tape_1 left"></div><div class="tape_2 right"></div>
